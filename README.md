@@ -11,17 +11,7 @@ This is a simple React-based account management system with features like user l
 
 ## Tech Stack
 
-- **React**: JavaScript library for building user interfaces.
+- **React with Typescript**: JavaScript library for building user interfaces.
 - **React Router**: For handling navigation between different pages.
 - **React Context API**: For managing global state (user authentication and profile details).
 - **Tailwind CSS**: Utility-first CSS framework for styling the application.
-
-## Setup and Installation
-
-Follow these steps to get the project up and running:
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/account-management.git
-cd account-management
