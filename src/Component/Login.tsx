@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useUser } from "../userContext";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -53,9 +53,9 @@ export const Login = () => {
           </button>
           <p className="text-center mt-4 text-gray-600">
             Don't have an account?{" "}
-            <a href="register" className="text-blue-600 hover:underline">
+            <Link to={"/register"} className="text-blue-600 hover:underline">
               Register here
-            </a>
+            </Link>
           </p>
         </form>
       </div>
